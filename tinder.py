@@ -26,7 +26,7 @@ while True:
         continue
     c, d = randint(-5, 5), randint(-5, 5)
 
-    print('click: ',i)
-    if i == 90:
+    print('clicks: ',i)
+    if i == 100:
         break
 
