@@ -20,7 +20,7 @@ while True:
             pyautogui.click(a-165+c, b+d)
             x = randint(4, 6)
             print(x)
-            c, d = randint(-3, 4), randint(-5, 5)
+            c, d = randint(-3, 4), randint(-3, 4)
             print(c,d)
     except:
         continue
