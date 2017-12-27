@@ -8,7 +8,7 @@ x = 5
 a, b = pyautogui.position()
 c, d = 0, 0
 
-print('Click position: ',a, b)
+print('Click positions: ',a, b)
 pyautogui.FAILSAFE = True
 while True:
     time.sleep(0.2)
@@ -19,9 +19,9 @@ while True:
             time.sleep(0.2)
             pyautogui.click(a-165+c, b+d)
             x = randint(4, 6)
-            print(x)
+            # print(x)
             c, d = randint(-3, 4), randint(-3, 4)
-            print(c,d)
+            # print(c,d)
     except:
         continue
     c, d = randint(-5, 5), randint(-5, 5)
